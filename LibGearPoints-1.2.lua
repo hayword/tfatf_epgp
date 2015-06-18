@@ -655,6 +655,15 @@ function lib:GetValue(item)
   if not slot_multiplier1 then
     return nil, nil, level, rarity, equipLoc
   end
+
+  --[[ Hayword's custom ilvl calc ]]
+  if useItemBonuses or equipLoc == "INVTYPE_TRINKET" or equipLoc == "INVTYPE_RANGED" or equipLoc == "INVTYPE_2HWEAPON" then
+    return level * 2, nil, level, rarity, equipLoc
+  else
+    return level, nil, level, rarity, equipLoc
+  end
+  --[[ end custom ]]
+
   -- 0.06973 is our coefficient so that ilvl 359 chests cost exactly
   -- 1000gp.  In 4.2 and higher, we renormalize to make ilvl 378
   -- chests cost 1000.  Repeat ad infinitum!
