@@ -657,7 +657,7 @@ function lib:GetValue(item)
   end
 
   --[[ Hayword's custom ilvl calc ]]
-  if useItemBonuses or equipLoc == "INVTYPE_TRINKET" or equipLoc == "INVTYPE_RANGED" or equipLoc == "INVTYPE_2HWEAPON" then
+  if CUSTOM_ITEM_DATA[itemID] or equipLoc == "INVTYPE_TRINKET" or equipLoc == "INVTYPE_RANGED" or equipLoc == "INVTYPE_2HWEAPON" then
     return level * 2, nil, level, rarity, equipLoc
   else
     return level, nil, level, rarity, equipLoc
