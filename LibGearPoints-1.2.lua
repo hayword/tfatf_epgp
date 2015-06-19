@@ -494,33 +494,33 @@ local CUSTOM_ITEM_DATA = {
   -- Item IDs are identical across difficulties, so specify nil for item level
   -- and specify the tier number instead: the raid difficulty and tier number
   -- will be used to get the item level.
-  [119309] = { 4, 665, "INVTYPE_SHOULDER", true },
-  [119322] = { 4, 665, "INVTYPE_SHOULDER", true },
-  [119314] = { 4, 665, "INVTYPE_SHOULDER", true },
+  [119309] = { 4, 670, "INVTYPE_SHOULDER", true },
+  [119322] = { 4, 670, "INVTYPE_SHOULDER", true },
+  [119314] = { 4, 670, "INVTYPE_SHOULDER", true },
 
-  [119307] = { 4, 665, "INVTYPE_LEGS", true },
-  [119320] = { 4, 665, "INVTYPE_LEGS", true },
-  [119313] = { 4, 665, "INVTYPE_LEGS", true },
+  [119307] = { 4, 670, "INVTYPE_LEGS", true },
+  [119320] = { 4, 670, "INVTYPE_LEGS", true },
+  [119313] = { 4, 670, "INVTYPE_LEGS", true },
 
-  [119308] = { 4, 665, "INVTYPE_HEAD", true },
-  [119321] = { 4, 665, "INVTYPE_HEAD", true },
-  [119312] = { 4, 665, "INVTYPE_HEAD", true },
+  [119308] = { 4, 670, "INVTYPE_HEAD", true },
+  [119321] = { 4, 670, "INVTYPE_HEAD", true },
+  [119312] = { 4, 670, "INVTYPE_HEAD", true },
 
-  [119306] = { 4, 665, "INVTYPE_HAND", true },
-  [119319] = { 4, 665, "INVTYPE_HAND", true },
-  [119311] = { 4, 665, "INVTYPE_HAND", true },
+  [119306] = { 4, 670, "INVTYPE_HAND", true },
+  [119319] = { 4, 670, "INVTYPE_HAND", true },
+  [119311] = { 4, 670, "INVTYPE_HAND", true },
 
-  [119305] = { 4, 665, "INVTYPE_CHEST", true },
-  [119318] = { 4, 665, "INVTYPE_CHEST", true },
-  [119315] = { 4, 665, "INVTYPE_CHEST", true },
+  [119305] = { 4, 670, "INVTYPE_CHEST", true },
+  [119318] = { 4, 670, "INVTYPE_CHEST", true },
+  [119315] = { 4, 670, "INVTYPE_CHEST", true },
 
   -- T17 essences
-  [119310] = { 4, 665, "INVTYPE_HEAD", true },
-  [120277] = { 4, 665, "INVTYPE_HEAD", true },
-  [119323] = { 4, 665, "INVTYPE_HEAD", true },
-  [120279] = { 4, 665, "INVTYPE_HEAD", true },
-  [119316] = { 4, 665, "INVTYPE_HEAD", true },
-  [120278] = { 4, 665, "INVTYPE_HEAD", true },
+  [119310] = { 4, 670, "INVTYPE_HEAD", true },
+  [120277] = { 4, 670, "INVTYPE_HEAD", true },
+  [119323] = { 4, 670, "INVTYPE_HEAD", true },
+  [120279] = { 4, 670, "INVTYPE_HEAD", true },
+  [119316] = { 4, 670, "INVTYPE_HEAD", true },
+  [120278] = { 4, 670, "INVTYPE_HEAD", true },
 }
 
 -- Used to add extra GP if the item contains bonus stats
