@@ -657,10 +657,11 @@ function lib:GetValue(item)
   end
 
   --[[ Hayword's custom ilvl calc ]]
+  local high = (level - 678.75) * (1000 / (735 - 678.75))
   if CUSTOM_ITEM_DATA[itemID] or equipLoc == "INVTYPE_TRINKET" or equipLoc == "INVTYPE_RANGED" or equipLoc == "INVTYPE_2HWEAPON" then
-    return level * 2, nil, level, rarity, equipLoc
+    return high * 2, nil, level, rarity, equipLoc
   else
-    return level, nil, level, rarity, equipLoc
+    return high, nil, level, rarity, equipLoc
   end
   --[[ end custom ]]
 
