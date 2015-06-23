@@ -521,6 +521,33 @@ local CUSTOM_ITEM_DATA = {
   [120279] = { 4, 670, "INVTYPE_HEAD", true },
   [119316] = { 4, 670, "INVTYPE_HEAD", true },
   [120278] = { 4, 670, "INVTYPE_HEAD", true },
+
+  -- T18
+  [127953] = { 4, 695, "INVTYPE_CHEST", true},
+  [127962] = { 4, 695, "INVTYPE_CHEST", true},
+  [127963] = { 4, 695, "INVTYPE_CHEST", true},
+
+  [127954] = { 4, 695, "INVTYPE_HAND", true},
+  [127958] = { 4, 695, "INVTYPE_HAND", true},
+  [127964] = { 4, 695, "INVTYPE_HAND", true},
+
+  [127956] = { 4, 695, "INVTYPE_HELM", true},
+  [127959] = { 4, 695, "INVTYPE_HELM", true},
+  [127966] = { 4, 695, "INVTYPE_HELM", true},
+
+  [127955] = { 4, 695, "INVTYPE_LEGS", true},
+  [127960] = { 4, 695, "INVTYPE_LEGS", true},
+  [127965] = { 4, 695, "INVTYPE_LEGS", true},
+
+  [127957] = { 4, 695, "INVTYPE_SHOULDER", true},
+  [127961] = { 4, 695, "INVTYPE_SHOULDER", true},
+  [127967] = { 4, 695, "INVTYPE_SHOULDER", true},
+  
+  [127968] = { 4, 705, "INVTYPE_TRINKET", true},
+  [127969] = { 4, 705, "INVTYPE_TRINKET", true},
+  [127970] = { 4, 705, "INVTYPE_TRINKET", true},
+
+
 }
 
 -- Used to add extra GP if the item contains bonus stats
